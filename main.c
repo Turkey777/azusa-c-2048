@@ -197,9 +197,9 @@ void moveTilesRight(int *gameboard) {
             gameboard[row + column] = gameboard[row + checkcolumn];
             gameboard[row + checkcolumn] = 0;
             break;
-            }
           }
         }
+      }
     }
   }
   return;
